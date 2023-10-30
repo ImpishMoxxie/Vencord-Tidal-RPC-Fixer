@@ -1,5 +1,5 @@
 # Vencord-Tidal-RPC-Fixer
-Fixes the RPC from saying Playing to Listening when usign https://github.com/purpl3F0x/TIDAL-Discord-Rich-Presence-UNOFFICIAL
+Fixes the RPC from saying Playing to Listening when using https://github.com/purpl3F0x/TIDAL-Discord-Rich-Presence-UNOFFICIAL
 
 # Install guide
 1. Install and run the exe from https://github.com/purpl3F0x/TIDAL-Discord-Rich-Presence-UNOFFICIAL
