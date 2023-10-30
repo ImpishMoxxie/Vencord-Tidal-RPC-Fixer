@@ -39,8 +39,7 @@ export default definePlugin({
     replaceType(activity) {
         if (!activity) return;
         if (activity.name == "TIDAL"){
-            activity.type = 2; // 2 = listening 3 = watching
-            // you can also swap name and details (which are usually media/song titles) here if you like
+            activity.type = 2;
         }
     },
 });
