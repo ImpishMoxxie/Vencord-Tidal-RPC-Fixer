@@ -23,7 +23,7 @@ export default definePlugin({
     authors: [
         {
             id: 712653921692155965n,
-            name: "MGK <3",
+            name: "Moxxie",
         },
     ],
     description: "Fixes the RPC from saying Playing to Listening when usign https://github.com/purpl3F0x/TIDAL-Discord-Rich-Presence-UNOFFICIAL",
