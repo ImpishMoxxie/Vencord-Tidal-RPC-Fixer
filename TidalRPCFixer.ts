@@ -26,10 +26,10 @@ export default definePlugin({
             name: "Moxxie",
         },
     ],
-    description: "Fixes the RPC from saying Playing to Listening when usign https://github.com/purpl3F0x/TIDAL-Discord-Rich-Presence-UNOFFICIAL",
+    description: "Fixes the RPC from saying Playing to Listening when using https://github.com/purpl3F0x/TIDAL-Discord-Rich-Presence-UNOFFICIAL",
     patches: [
         {
-            find: '.displayName="LocalActivityStore"',
+            find: '="LocalActivityStore",',
             replacement: {
                 match: /LOCAL_ACTIVITY_UPDATE:function\((\i)\)\{/,
                 replace: "$&$self.replaceType($1.activity);",
